@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Image } from "semantic-ui-react";
-import img11 from '../../assets/images/img11.jpg';
+import img11 from '../../../assets/images/img11.jpg';
 import TypingHeader from './TypingHeader';
 require('./landing.css');
 
@@ -9,11 +9,11 @@ const CoverImage = () => {
     <Container fluid>
       <TypingHeader
         strings={[
-            "I am: a high altitude <i>mountaineer</i>",
-            "I am: a software <i>engineer</i>",
-            "I am: a tree <i>lover</i>",
-            "I am: an ice cream <i>connoisseur</i>",
-            "I am: a <i>feminist</i>"
+            "<strong>I am:</strong> a high altitude <i>mountaineer</i>",
+            "<strong>I am:</strong> a software <i>engineer</i>",
+            "<strong>I am:</strong> a tree <i>lover</i>",
+            "<strong>I am:</strong> an ice cream <i>connoisseur</i>",
+            "<strong>I am:</strong> a <i>feminist</i>"
         ]}
       />
       <Image className="backgroundImg" src={img11} />

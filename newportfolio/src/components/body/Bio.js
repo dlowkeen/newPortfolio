@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Image } from 'semantic-ui-react';
-import donovan from '../assets/images/dlow.jpeg';
+import donovan from '../../assets/images/dlow.jpeg';
 
 const Bio = () => {
-    return <Grid celled>
+    return <Grid celled id="bio">
         <Grid.Row>
           <Grid.Column width={5}>
             <Image src={donovan} />

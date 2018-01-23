@@ -10,7 +10,7 @@ class Landing extends Component {
 
   render() {
     return (
-      <Visibility>
+      <Visibility id="landing">
         <CoverImage />
         <Divider horizontal inverted />
         <Divider horizontal inverted />
