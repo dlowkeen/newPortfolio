@@ -2,11 +2,12 @@
     position: absolute;
     top: 150px;
     margin: auto;
-    width: 100%
+    width: 100%;
+    z-index: 3
 }
 
 .backgroundImg {
-    z-index: -.50;
+    z-index: 0;
 }
 
 .headline {
