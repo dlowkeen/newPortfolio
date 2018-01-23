@@ -1,0 +1,28 @@
+.landing-text {
+    position: absolute;
+    top: 150px;
+    margin: auto;
+    width: 100%
+}
+
+.backgroundImg {
+    z-index: -1;
+}
+
+.headline {
+    font-size: 48px;
+    color: #ffffff;
+    text-align: "center";
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.typing {
+    color: #ffffff;
+    font-size: 24px;
+    top: 100px;
+}
+
