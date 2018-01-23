@@ -1,0 +1,10 @@
+.body {
+    background-color: #101C1A;
+    z-index: -10;
+}
+
+.bio-text {
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 16px;
+}

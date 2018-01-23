@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Header from './common/Header';
-import Landing from './landing/Landing';
+import Body from './body/Body';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header />
-        <Landing />
+        <Body />
       </div>
     );
   }
