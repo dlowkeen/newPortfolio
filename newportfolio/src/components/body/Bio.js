@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Image } from 'semantic-ui-react';
 import donovan from '../../assets/images/dlow.jpeg';
 

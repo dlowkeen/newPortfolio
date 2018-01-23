@@ -2,7 +2,6 @@ import React from 'react';
 import gift from "../../../assets/images/Gifts.jpg";
 import pirateShip from "../../../assets/images/pirate_ship.gif";
 import habittack from "../../../assets/images/habittack.jpg";
-import github from "../../../assets/images/github.svg";
 import socialspaces from "../../../assets/images/socialspaces.png";
 
 
@@ -11,7 +10,7 @@ const Projects = () => {
         <div class="ui three stackable cards">
           <div class="card">
             <div class="image">
-              <img src={gift} />
+              <img src={gift} alt="gifthub" />
             </div>
             <div class="content">
               <a class="header" href="https://ucla-hackers.github.io/twitter-watson-personality-insights/">
@@ -31,7 +30,7 @@ const Projects = () => {
           </div>
           <div class="card">
             <div class="image">
-              <img src={pirateShip} />
+              <img src={pirateShip} alt="pirateship" />
             </div>
             <div class="content">
               <a class="header" href="https://github.com/ARKrew/workingArgo">
@@ -53,7 +52,7 @@ const Projects = () => {
           </div>
           <div class="card">
             <div class="image">
-              <img src={habittack} />
+              <img src={habittack} alt="habittack" />
             </div>
             <div class="content">
               <a class="header" href="https://www.kickstarter.com/projects/94978636/the-habittack">
@@ -76,7 +75,7 @@ const Projects = () => {
         <div class="ui three stackable cards">
           <div class="card">
             <div class="image">
-              <img src={socialspaces} />
+              <img src={socialspaces} alt="socialspaces" />
             </div>
             <div class="content">
               <a class="header" href="https://socialspaces.life/">
@@ -114,7 +113,7 @@ const Projects = () => {
           </div>
           <div class="card">
             <div class="image">
-              <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" />
+              <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="meetup" />
             </div>
             <div class="content">
               <a class="header" href="https://github.com/ARKrew/meetup">

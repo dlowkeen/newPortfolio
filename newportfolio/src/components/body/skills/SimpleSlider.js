@@ -25,31 +25,31 @@ class SimpleSlider extends React.Component {
       <div>
         <Slider {...settings}>
           <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={javaScript} />
+            <img style={styles.imageStyle} src={javaScript}  alt="javascript" />
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={jquery} />
+            <img style={styles.imageStyle} src={jquery}  alt="jquery"/>
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={node} />
+            <img style={styles.imageStyle} src={node}  alt="node"/>
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.expressStyle} src={express} />
+            <img style={styles.expressStyle} src={express} alt="express" />
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={react} />
+            <img style={styles.imageStyle} src={react}  alt="react"/>
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.gitStyle} src={git} />
+            <img style={styles.gitStyle} src={git} alt="git" />
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.MySQLStyle} src={mysql} />
+            <img style={styles.MySQLStyle} src={mysql} alt="mysql"/>
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.wideImgStyle} src={firebase} />
+            <img style={styles.wideImgStyle} src={firebase} alt="firebase" />
           </div>
           <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={mongodb} />
+            <img style={styles.imageStyle} src={mongodb} alt="mongodb" />
           </div>
         </Slider>
         <br />
