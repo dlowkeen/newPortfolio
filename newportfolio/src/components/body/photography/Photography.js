@@ -2,15 +2,15 @@ import React from "react";
 import { Container } from "semantic-ui-react";
 import PhotoGrid from "react-photo-feed";
 import "react-photo-feed/library/style.css";
-import img1 from "../../assets/images/img1.jpg";
-import img3 from "../../assets/images/img3.jpg";
-import img4 from "../../assets/images/img4.jpg";
-import img5 from "../../assets/images/img5.jpg";
-import img6 from "../../assets/images/img6.jpg";
-import img7 from "../../assets/images/img7.jpg";
-import img8 from "../../assets/images/img8.jpg";
-import img9 from "../../assets/images/img9.jpg";
-import img10 from "../../assets/images/img10.jpg";
+import img1 from "../../../assets/images/img1.jpg";
+import img3 from "../../../assets/images/img3.jpg";
+import img4 from "../../../assets/images/img4.jpg";
+import img5 from "../../../assets/images/img5.jpg";
+import img6 from "../../../assets/images/img6.jpg";
+import img7 from "../../../assets/images/img7.jpg";
+import img8 from "../../../assets/images/img8.jpg";
+import img9 from "../../../assets/images/img9.jpg";
+import img10 from "../../../assets/images/img10.jpg";
 
 const demoPhotos = [
   {
@@ -64,7 +64,6 @@ class Photography extends React.Component {
   render() {
     return (
       <Container className="section" id="photography">
-        <h1>Photography</h1>
         <PhotoGrid columns={3} photos={demoPhotos} />
       </Container>
     );

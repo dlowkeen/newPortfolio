@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import Header from './common/Header';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Body from './body/Body';
+import PhotographyPage from './body/photography/PhotographyPage';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header />
-        <Body />
-      </div>
+      <BrowserRouter>
+        <div>
+          <Route exact={true} path="/" component={Body} />
+          <Route exact={true} path="/photography" component={PhotographyPage} />
+        </div>
+      </BrowserRouter>
     );
   }
 }

@@ -38,10 +38,6 @@ export default class MenuExampleInverted extends Component {
     smoothScroll.scrollTo("projects");
   };
 
-  handlePhotographyClick() {
-    smoothScroll.scrollTo("photography");
-  }
-
   render() {
     const { activeItem } = this.state;
 
@@ -76,14 +72,11 @@ export default class MenuExampleInverted extends Component {
               />
               <Menu.Item
                   name="Photography"
-                  href="#photography"
-                  onClick={this.handlePhotographyClick}
+                  href="/photography"
               />
               <Menu.Item
                   name="Video"
                   href="https://vimeo.com/user45384519"
-                  active={activeItem === "Video"}
-                  onClick={this.handleVidoeClick}
               />
           </Menu.Menu>
         </Menu>
