@@ -13,7 +13,7 @@ export default class HeaderPhoto extends Component {
       <div className="smooth-scroll">
         <Menu inverted>
           <Menu.Item name="Home" href="/" onClick={this.handleHomeClick} />
-          <Menu.Item name="Bio" href="#bio" onClick={this.handleBioClick} />
+          {/* <Menu.Item name="Bio" href="#bio" onClick={this.handleBioClick} />
           <Menu.Item
             name="Skills"
             href="#skills"
@@ -23,7 +23,7 @@ export default class HeaderPhoto extends Component {
             name="Projects"
             href="#projects"
             onClick={this.handleProjectsClick}
-          />
+          /> */}
           <Menu.Menu position="right">
             <Menu.Item
               name="Thoughts"
