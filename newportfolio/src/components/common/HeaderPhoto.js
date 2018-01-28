@@ -27,8 +27,7 @@ export default class HeaderPhoto extends Component {
           <Menu.Menu position="right">
             <Menu.Item
               name="Thoughts"
-              href="#thoughts"
-              onClick={this.handleThoughtsClick}
+              href="https://medium.com/@dlowkeen"
             />
             <Menu.Item
               name="Photography"
