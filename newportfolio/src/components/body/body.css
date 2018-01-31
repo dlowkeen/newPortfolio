@@ -12,3 +12,16 @@
 #skills {
     background-color: #3e483d
 }
+
+.sectionHead {
+	font-size: 70px;
+	letter-spacing: -5px;
+	line-height: 95px;
+	color: #ffffff;
+}
+
+.sectionHeadContainer {
+  height: 5em;
+	opacity: 1;
+	text-align: center;
+}

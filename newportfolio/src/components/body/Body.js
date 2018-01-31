@@ -15,8 +15,10 @@ class Body extends Component {
                 <Header />
                 <Landing />
                 <Container>
+                    <SectionHead name="Bio" />
                     <Bio />
                 </Container>
+                    <SectionHead name="Skills" />
                     <Skills />
                 <Container>
                     <SectionHead name="Projects" />
