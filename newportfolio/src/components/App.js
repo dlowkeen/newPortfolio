@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Body from './body/Body';
 import PhotographyPage from './body/photography/PhotographyPage';
+import * as actions from '../actions';
 
 class App extends Component {
   render() {
@@ -16,4 +18,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default connect(null, actions)(App);
