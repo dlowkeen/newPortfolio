@@ -3,10 +3,12 @@ import gift from "../../../assets/images/Gifts.jpg";
 import pirateShip from "../../../assets/images/pirate_ship.gif";
 import habittack from "../../../assets/images/habittack.jpg";
 import socialspaces from "../../../assets/images/socialspaces.png";
+import SectionHead from '../../common/SectionHead';
 
 
 const Projects = () => {
     return <div id="projects">
+        <SectionHead name="Projects" />
         <div class="ui three stackable cards">
           <div class="card">
             <div class="image">
@@ -128,6 +130,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <br/>
+        <br/>
       </div>;
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import { Container } from 'semantic-ui-react';
 import javaScript from "../../../assets/images/javascript.png";
 import jquery from "../../../assets/images/jquery.gif";
 import node from "../../../assets/images/node.png";
@@ -22,7 +23,7 @@ class SimpleSlider extends React.Component {
       autoplaySpeed: 400
     };
     return (
-      <div>
+      <Container>
         <Slider {...settings}>
           <div style={styles.sliderStyle}>
             <img style={styles.imageStyle} src={javaScript}  alt="javascript" />
@@ -55,7 +56,7 @@ class SimpleSlider extends React.Component {
         <br />
         <br />
         <br />
-      </div>
+      </Container>
     );
   }
 }
