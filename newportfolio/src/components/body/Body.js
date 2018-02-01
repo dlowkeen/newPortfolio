@@ -5,6 +5,7 @@ import Landing from './landing/Landing';
 import Bio from './Bio';
 import Skills from './skills/Skills';
 import Projects from './projects/Projects';
+import Footer from '../common/Footer';
 require('./body.css');
 
 class Body extends Component {
@@ -20,6 +21,7 @@ class Body extends Component {
                 <Container>
                     <Projects />
                 </Container>
+                <Footer />
             </div>
         );
     }

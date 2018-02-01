@@ -3,6 +3,7 @@ import { Container } from "semantic-ui-react";
 import HeaderPhoto from "../../common/HeaderPhoto";
 import Landing from "../landing/Landing";
 import Photography from "./Photography";
+import Footer from "../../common/Footer";
 require("../body.css");
 
 class PhotographyPage extends Component {
@@ -14,6 +15,7 @@ class PhotographyPage extends Component {
         <Container>
           <Photography />
         </Container>
+        <Footer />
       </div>
     );
   }

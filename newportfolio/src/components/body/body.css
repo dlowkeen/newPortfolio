@@ -25,3 +25,9 @@
 	opacity: 1;
 	text-align: center;
 }
+
+/* Footer =================================== */
+.logos {
+  height: 30px;
+  width: 30px;
+}
