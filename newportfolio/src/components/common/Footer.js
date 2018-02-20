@@ -12,13 +12,13 @@ class Footer extends React.Component {
         <a href="https://www.linkedin.com/in/donovanlowkeen/">
           <img className="logos" src={linkedin} />
         </a>
-        <a href="www.github.com/dlowkeen">
+        <a href="https://www.github.com/dlowkeen">
           <img className="logos" src={github} />
         </a>
-        <a href="www.facebook.com/donovan.lowkeen">
+        <a href="https://www.facebook.com/donovan.lowkeen">
           <img className="logos" src={facebook} />
         </a>
-        <a href="www.instagram.com/highkeylowkeen">
+        <a href="https://www.instagram.com/highkeylowkeen">
           <img className="logos" src={instagram} />
         </a>
       </Container>
