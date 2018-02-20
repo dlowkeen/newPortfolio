@@ -70,6 +70,10 @@ export default class MenuExampleInverted extends Component {
           />
           <Menu.Menu position="right">
               <Menu.Item
+                  name="Contact"
+                  href="mailto:lowkeendonovan@gmail.com"
+              />
+              <Menu.Item
                   name="Thoughts"
                   href="https://medium.com/@dlowkeen"
               />

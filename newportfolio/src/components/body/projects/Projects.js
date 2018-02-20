@@ -4,6 +4,7 @@ import pirateShip from "../../../assets/images/pirate_ship.gif";
 import habittack from "../../../assets/images/habittack.jpg";
 import socialspaces from "../../../assets/images/socialspaces.png";
 import SectionHead from '../../common/SectionHead';
+import groupr from '../../../assets/images/groupr.png';
 
 
 const Projects = () => {
@@ -25,7 +26,7 @@ const Projects = () => {
                   characteristics, needs and values through twitter feeds.
                 </p>
                 <p>
-                  <strong>Responsible for: </strong>Backend API calls with AJAX, Firebase, JavaScript.
+                  <strong>Responsible for: </strong>Backend API calls with AJAX, Firebase, JavaScript. Google login.
                 </p>
               </div>
             </div>
@@ -115,23 +116,28 @@ const Projects = () => {
           </div>
           <div class="card">
             <div class="image">
-              <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="meetup" />
+              <a href="http://www.groupr.tech/">
+                <img src={groupr} alt="meetup" />
+              </a>
             </div>
             <div class="content">
-              <a class="header" href="https://github.com/ARKrew/meetup">
-                MeetUp
+              <a class="header" href="http://www.groupr.tech/">
+                Groupr
               </a>
               <div class="description">
                 <p>
                   Hub for high quality tech networking events. Built with
                   MERN stack.
                 </p>
+                <p>
+                  <strong>Responsible for: </strong>Recruiter and Quiz form using Redux-Form, MongoDB CRUD operations using mongoose.
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <br/>
-        <br/>
+        <br />
+        <br />
       </div>;
 }
 
