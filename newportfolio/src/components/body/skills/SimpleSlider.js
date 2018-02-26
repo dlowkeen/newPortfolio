@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { Container } from 'semantic-ui-react';
+import { Container, Button, Progress, Grid } from 'semantic-ui-react';
 import javaScript from "../../../assets/images/javascript.png";
 import jquery from "../../../assets/images/jquery.gif";
 import node from "../../../assets/images/node.png";
@@ -17,47 +17,57 @@ class SimpleSlider extends React.Component {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 4,
+      slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 400
+      autoplaySpeed: 400,
+      vertical: true
     };
-    return (
-      <Container>
-        <Slider {...settings}>
-          <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={javaScript}  alt="javascript" />
-          </div>
-          <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={jquery}  alt="jquery"/>
-          </div>
-          <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={node}  alt="node"/>
-          </div>
-          <div style={styles.sliderStyle}>
-            <img style={styles.expressStyle} src={express} alt="express" />
-          </div>
-          <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={react}  alt="react"/>
-          </div>
-          <div style={styles.sliderStyle}>
-            <img style={styles.gitStyle} src={git} alt="git" />
-          </div>
-          <div style={styles.sliderStyle}>
-            <img style={styles.MySQLStyle} src={mysql} alt="mysql"/>
-          </div>
-          <div style={styles.sliderStyle}>
-            <img style={styles.wideImgStyle} src={firebase} alt="firebase" />
-          </div>
-          <div style={styles.sliderStyle}>
-            <img style={styles.imageStyle} src={mongodb} alt="mongodb" />
-          </div>
-        </Slider>
+    return <Container>
+        <Grid>
+          <Grid.Column width={8}>
+            <Slider {...settings}>
+              <div style={styles.sliderStyle}>
+                <img style={styles.imageStyle} src={javaScript} alt="javascript" />
+              </div>
+              <div>
+                <Progress percent="33" indicating />
+              </div>
+              <div style={styles.sliderStyle}>
+                <img style={styles.imageStyle} src={jquery} alt="jquery" />
+              </div>
+              <div style={styles.sliderStyle}>
+                <img style={styles.imageStyle} src={node} alt="node" />
+              </div>
+              <div style={styles.sliderStyle}>
+                <img style={styles.expressStyle} src={express} alt="express" />
+              </div>
+            </Slider>
+          </Grid.Column>
+          <Grid.Column width={8}>
+            <Slider {...settings}>
+              <div style={styles.sliderStyle}>
+                <img style={styles.imageStyle} src={react} alt="react" />
+              </div>
+              <div style={styles.sliderStyle}>
+                <img style={styles.gitStyle} src={git} alt="git" />
+              </div>
+              <div style={styles.sliderStyle}>
+                <img style={styles.MySQLStyle} src={mysql} alt="mysql" />
+              </div>
+              <div style={styles.sliderStyle}>
+                <img style={styles.wideImgStyle} src={firebase} alt="firebase" />
+              </div>
+              <div style={styles.sliderStyle}>
+                <img style={styles.imageStyle} src={mongodb} alt="mongodb" />
+              </div>
+            </Slider>
+          </Grid.Column>
+        </Grid>
         <br />
         <br />
         <br />
-      </Container>
-    );
+      </Container>;
   }
 }
 

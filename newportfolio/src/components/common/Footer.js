@@ -9,6 +9,8 @@ class Footer extends React.Component {
   render() {
     return (
       <Container id="footer-container" style={styles.footerStyle}>
+        <br />
+        <br />
         <a href="https://www.linkedin.com/in/donovanlowkeen/">
           <img className="logos" src={linkedin} />
         </a>
@@ -21,6 +23,8 @@ class Footer extends React.Component {
         <a href="https://www.instagram.com/highkeylowkeen">
           <img className="logos" src={instagram} />
         </a>
+        <br />
+        <br />
       </Container>
     );
   }

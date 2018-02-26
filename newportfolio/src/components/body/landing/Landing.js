@@ -12,13 +12,9 @@ class Landing extends Component {
     return (
       <Visibility id="landing">
         <CoverImage />
-        <Divider horizontal inverted />
-        <Divider horizontal inverted />
       </Visibility>
     );
   }
 }
-
-// test
 
 export default Landing;

@@ -28,15 +28,16 @@ class TypingHeader extends React.Component {
     return (
       <div className="landing-text">
         <p className="headline">Donovan Lowkeen
-        <div className="typing-container">
-          <span
-            className="typing"
-            style={{ whiteSpace: "pre" }}
-            ref={el => {
-              this.el = el;
-            }}
-          />
-        </div></p>
+          <div className="typing-container">
+            <span
+              className="typing"
+              style={{ whiteSpace: "pre" }}
+              ref={el => {
+                this.el = el;
+              }}
+            />
+          </div>
+        </p>
       </div>
     );
   }

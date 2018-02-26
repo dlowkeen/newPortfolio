@@ -4,6 +4,10 @@ import SimpleSlider from "./SimpleSlider";
 import SectionHead from '../../common/SectionHead';
 
 class Skills extends Component {
+  renderSkills() {
+    
+  }
+
   render() {
     return (
       <div className="section" id="skills">

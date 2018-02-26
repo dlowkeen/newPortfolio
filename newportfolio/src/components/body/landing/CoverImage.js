@@ -8,11 +8,10 @@ const CoverImage = () => {
   return (
     <Container fluid>
       <TypingHeader
-        
         strings={[
-            "<strong>I am:</strong> a high altitude <i>mountaineer</i>",
             "<strong>I am:</strong> a software <i>engineer</i>",
-            "<strong>I am:</strong> a tree <i>lover</i>",
+            "<strong>I am:</strong> a high altitude <i>mountaineer</i>",
+            "<strong>I am:</strong> a problem <i>solver</i>",
             "<strong>I am:</strong> an ice cream <i>connoisseur</i>",
             "<strong>I am:</strong> a <i>feminist</i>"
         ]}
