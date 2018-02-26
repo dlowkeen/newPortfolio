@@ -9,12 +9,8 @@ class Projects extends Component {
     super();
     this.renderProjects = this.renderProjects.bind(this);
   }
-  componentDidMount() {
-    console.log(projects);
-  }
 
   renderProjects() {
-    console.log("Hi there");
     return projects.map(project => {
       return <div className="card">
           <div className="image">

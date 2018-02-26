@@ -16,7 +16,12 @@
 }
 
 #skills {
-    background-color: #3e483d
+    background-color: #3e483d;
+    font-size: 16px;
+}
+
+#skillTitle {
+    color: #ffffff
 }
 
 .sectionHead {
