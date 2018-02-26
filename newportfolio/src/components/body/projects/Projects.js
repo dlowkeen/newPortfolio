@@ -27,7 +27,7 @@ class Projects extends Component {
             <div className="description">
               <p>{project.description}</p>
               <p>
-                <strong>Responsible for: </strong>
+                <strong>Responsible For: </strong>
                 {project.responsibilities}
               </p>
             </div>
