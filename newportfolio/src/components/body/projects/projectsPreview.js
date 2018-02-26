@@ -25,7 +25,7 @@ export default [
   },
   {
     href:'https://github.com/dlowkeen/Amazon-CLI',
-    src:'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180',
+    src:'../../../assets/images/inv.jpg',
     alt:"bAmazon",
     name:"bAmazon",
     description:"Inventory on hand tool that takes in orders from customers and depletes stock on hand.",
