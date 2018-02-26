@@ -8,6 +8,7 @@ const CoverImage = () => {
   return (
     <Container fluid>
       <TypingHeader
+        
         strings={[
             "<strong>I am:</strong> a high altitude <i>mountaineer</i>",
             "<strong>I am:</strong> a software <i>engineer</i>",
