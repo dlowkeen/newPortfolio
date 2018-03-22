@@ -4,7 +4,7 @@ import donovan from '../../assets/images/dlow.jpeg';
 import SectionHead from '../common/SectionHead';
 
 const Bio = () => {
-    return <div id="bio">
+    return <div id="bio"><br/><br/><br/>
         <SectionHead name="Bio" />
         <Grid columns="equal">
           <Grid.Column>
@@ -45,9 +45,7 @@ const Bio = () => {
             <div />
           </Grid.Column>
         </Grid>
-        <br />
-        <br />
-        <br />
+        <br/><br/><br/><br/><br/><br/>
       </div>;
 }
 

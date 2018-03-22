@@ -38,13 +38,13 @@ class Projects extends Component {
   render() {
     return (
       <div id="projects">
+        <br/><br/><br/>
         <SectionHead name="Projects" />
         <div class="ui three stackable cards">
           {this.renderProjects()};
         </div>
         <div class="ui three stackable cards" />
-        <br />
-        <br />
+        <br/><br/><br/><br/><br/><br/>
       </div>
     );
   }

@@ -5,6 +5,7 @@ import Landing from './landing/Landing';
 import Bio from './Bio';
 import Skills from './skills/Skills';
 import Projects from './projects/Projects';
+import ParallaxImage from '../common/ParallaxImage';
 import PhotographyPage from './photography/PhotographyPage';
 import Footer from '../common/Footer';
 require('./body.css');
@@ -18,13 +19,11 @@ class Body extends Component {
                 <Container>
                     <Bio />
                 </Container>
-                    <Skills />
+                <Skills />
                 <Container>
                     <Projects />
                 </Container>
-                <Container>
-                 <PhotographyPage />
-                </Container>
+                <PhotographyPage />
                 <Footer />
             </div>
         );
