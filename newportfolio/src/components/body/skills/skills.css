@@ -1,0 +1,116 @@
+.slider-div {
+  display: "flex";
+  justify-content: "center"
+}
+
+/* SKills Logos ============================= */
+.skillsLogo {
+  height: 120px;
+  width: 120px;
+}
+
+.wideImgLogos {
+  height: 100px;  
+  width: 270px;
+  padding-top: 15px;
+}
+
+.expressLogo {
+  height: 80px;  
+  width: 250px;
+  padding-top: 15px;
+}
+
+.gitLogo {
+  height: 100px;  
+  width: 210px;
+  padding-top: 10px;
+}
+
+.mySQLLogo {
+  height: 100px;
+  width: 170px;
+}
+
+/* Media Queries ============================= */
+@media only screen and (max-width: 667px) and (min-width: 375px) {
+  .skillsLogo {
+    height: 70px;
+    width: 70px;
+  }
+
+  .wideImgLogos {
+    height: 60px;  
+    width: 160px;
+    padding-top: 15px;
+  }
+
+  .expressLogo {
+    height: 50px;  
+    width: 140px;
+    padding-top: 15px;
+  }
+
+  .gitLogo {
+    height: 60px;  
+    width: 110px;
+    padding-top: 15px;
+  }
+
+  .mySQLLogo {
+    height: 60px;
+    width: 90px;
+  }
+}
+
+@media only screen and (max-width: 374px) and (min-width: 180px) {
+  .skillsLogo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .wideImgLogos {
+    height: 40px;  
+    width: 90px;
+    padding-top: 15px;
+  }
+
+  .expressLogo {
+    height: 35px;  
+    width: 60px;
+    padding-top: 15px;
+  }
+
+  .gitLogo {
+    height: 40px;  
+    width: 70px;
+    padding-top: 15px;
+  }
+
+  .mySQLLogo {
+    height: 40px;
+    width: 70px;
+  }
+}
+
+
+
+/* @media only screen and (max-width: 1026px) and (min-width: 800px) {
+
+
+@media only screen and (max-width: 799px) and (min-width: 600px) {
+
+
+@media only screen and (max-width: 599px) and (min-width: 500px) {
+
+
+@media only screen and (max-width: 499px) and (min-width: 400px) {
+
+
+@media only screen and (max-width: 399px) and (min-width: 275px) {
+
+
+@media only screen and (max-width: 274px) and (min-width: 225px) { */
+
+/* 
+@media only screen and (max-width: 224px) and (min-width: 180px) { */

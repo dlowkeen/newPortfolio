@@ -24,32 +24,32 @@ class SimpleSlider extends React.Component {
     };
     return <Container>
       <Slider {...settings}>
-        <div style={styles.sliderStyle}>
-          <img style={styles.imageStyle} src={javaScript} alt="javascript" />
+        <div className="slider-div">
+          <img className="skillsLogo" src={javaScript} alt="javascript" />
         </div>
-        <div style={styles.sliderStyle}>
-          <img style={styles.imageStyle} src={jquery} alt="jquery" />
+        <div className="slider-div">
+          <img className="skillsLogo" src={jquery} alt="jquery" />
         </div>
-        <div style={styles.sliderStyle}>
-          <img style={styles.imageStyle} src={node} alt="node" />
+        <div className="slider-div">
+          <img className="skillsLogo" src={node} alt="node" />
         </div>
-        <div style={styles.sliderStyle}>
-          <img style={styles.expressStyle} src={express} alt="express" />
+        <div className="slider-div">
+          <img className="expressLogo" src={express} alt="express" />
         </div>
-        <div style={styles.sliderStyle}>
-          <img style={styles.imageStyle} src={react} alt="react" />
+        <div className="slider-div">
+          <img className="skillsLogo" src={react} alt="react" />
         </div>
-        <div style={styles.sliderStyle}>
-          <img style={styles.gitStyle} src={git} alt="git" />
+        <div className="slider-div">
+          <img className="gitLogo" src={git} alt="git" />
         </div>
-        <div style={styles.sliderStyle}>
-          <img style={styles.MySQLStyle} src={mysql} alt="mysql" />
+        <div className="slider-div">
+          <img className="mySQLLogo" src={mysql} alt="mysql" />
         </div>
-        <div style={styles.sliderStyle}>
-          <img style={styles.wideImgStyle} src={firebase} alt="firebase" />
+        <div className="slider-div">
+          <img className="wideImgLogos" src={firebase} alt="firebase" />
         </div>
-        <div style={styles.sliderStyle}>
-          <img style={styles.imageStyle} src={mongodb} alt="mongodb" />
+        <div className="slider-div">
+          <img className="skillsLogo" src={mongodb} alt="mongodb" />
         </div>
       </Slider>
       <br />
@@ -58,35 +58,5 @@ class SimpleSlider extends React.Component {
     </Container>;
   }
 }
-
-const styles = {
-  sliderStyle: {
-    display: "flex",
-    justifyContent: "center"
-  },
-  imageStyle: {
-    height: 120,
-    width: 120
-  },
-  wideImgStyle: {
-    height: 100,
-    width: 320,
-    paddingTop: 15
-  },
-  expressStyle: {
-    height: 100,
-    width: 250,
-    paddingTop: 25
-  },
-  gitStyle: {
-    height: 100,
-    width: 230,
-    paddingTop: 10
-  },
-  MySQLStyle: {
-    height: 100,
-    width: 190
-  }
-};
 
 export default SimpleSlider;

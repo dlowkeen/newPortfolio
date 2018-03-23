@@ -4,6 +4,7 @@ import { Parallax } from "react-parallax";
 import SimpleSlider from "./SimpleSlider";
 import SectionHead from '../../common/SectionHead';
 import img13 from "../../../assets/images/img13.jpg";
+require('./skills.css');
 
 class Skills extends Component {
   render() {
