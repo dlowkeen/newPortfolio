@@ -12,16 +12,16 @@ class Footer extends React.Component {
         <br />
         <br />
         <a href="https://www.linkedin.com/in/donovanlowkeen/">
-          <img className="logos" src={linkedin} />
+          <img alt="linkedin" className="logos" src={linkedin} />
         </a>
         <a href="https://www.github.com/dlowkeen">
-          <img className="logos" src={github} />
+          <img alt="github" className="logos" src={github} />
         </a>
         <a href="https://www.facebook.com/donovan.lowkeen">
-          <img className="logos" src={facebook} />
+          <img alt="facebook" className="logos" src={facebook} />
         </a>
         <a href="https://www.instagram.com/highkeylowkeen">
-          <img className="logos" src={instagram} />
+          <img alt="instagram" className="logos" src={instagram} />
         </a>
         <br />
         <br />

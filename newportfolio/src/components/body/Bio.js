@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Segment, Image } from 'semantic-ui-react';
+import { Grid, Image } from 'semantic-ui-react';
 import donovan from '../../assets/images/dlow.jpeg';
 import SectionHead from '../common/SectionHead';
 

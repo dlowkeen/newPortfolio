@@ -3,7 +3,6 @@ import { Menu } from "semantic-ui-react";
 import smoothScroll from './smoothScroll';
 
 export default class MenuExampleInverted extends Component {
-  state = { activeItem: "home" };
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
@@ -43,8 +42,6 @@ export default class MenuExampleInverted extends Component {
   };
 
   render() {
-    const { activeItem } = this.state;
-
     return (
       <div className="smooth-scroll">
         <Menu inverted>

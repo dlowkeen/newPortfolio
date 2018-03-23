@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { Container, Button, Progress, Grid } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import javaScript from "../../../assets/images/javascript.png";
 import jquery from "../../../assets/images/jquery.gif";
 import node from "../../../assets/images/node.png";

@@ -38,5 +38,13 @@ export default [
     name:"bAmazon",
     description:"Inventory management tool that takes in orders from customers and depletes stock on hand.",
     responsibilities:"Sole Developer. Built with Node.js, MySQL."
+  },
+  {
+    href:'https://whispering-savannah-73328.herokuapp.com/',
+    src: require('../../../assets/images/rhiz.png'),
+    alt:"Rhiz",
+    name:"Rhiz",
+    description:"Small Business Marketplace application built with MERN Stack.",
+    responsibilities:"Sole Developer. Built with React/Redux for front-end, Express/Node Server, and MongoDB."
   }
 ];
