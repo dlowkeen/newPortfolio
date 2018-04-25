@@ -33,14 +33,14 @@ export default [
   },
   {
     href:'https://murmuring-taiga-90919.herokuapp.com/',
-    src: require('../../../assets/images/inv.jpg'),
+    src: require('../../../assets/images/data.png'),
     alt:"Data Visualization",
     name:"Data Visualization",
     description:"Visualize data from spotify, apple music, and deezer.",
     responsibilities:"Sole Developer. Utilized React.js for front end components, React-vis for graphs/tables. Used node.js and express for backend server and MySQL for database."
   },
   {
-    href:'https://whispering-savannah-73328.herokuapp.com/',
+    href:'https://github.com/dlowkeen/rhiz',
     src: require('../../../assets/images/rhiz.png'),
     alt:"Rhiz",
     name:"Rhiz",
