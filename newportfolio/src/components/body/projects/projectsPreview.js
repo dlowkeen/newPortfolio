@@ -24,23 +24,23 @@ export default [
     responsibilities:"Created recruiter and quiz form using Redux-Form, Pushed results/info to MongoDB using CRUD operations through mongoose."
   },
   {
-    href:'https://socialspaces.life/',
+    href:'https://github.com/dlowkeen/vody',
     src: require("../../../assets/images/socialSpaces.jpeg"),
-    alt:"SocialSpaces",
-    name:"Social Spaces",
-    description:"Find roommates that match your personal, professional and spiritual goals through a co-living space.",
-    responsibilities:"Front end development with React/Redux."
+    alt:"Vody",
+    name:"Vody",
+    description:"Mobile application to search for movies using the MoviesDB Database.",
+    responsibilities:"Built with React-Native and Redux for front end components. Utilized Axios calls and promise functions to call JSON data. Facebook-sdk login for android and ios. "
   },
   {
-    href:'https://github.com/dlowkeen/Amazon-CLI',
-    src: require('../../../assets/images/inv.jpg'),
-    alt:"bAmazon",
-    name:"bAmazon",
-    description:"Inventory management tool that takes in orders from customers and depletes stock on hand.",
-    responsibilities:"Sole Developer. Built with Node.js, MySQL."
+    href:'https://murmuring-taiga-90919.herokuapp.com/',
+    src: require('../../../assets/images/data.png'),
+    alt:"Data Visualization",
+    name:"Data Visualization",
+    description:"Visualize data from spotify, apple music, and deezer.",
+    responsibilities:"Sole Developer. Utilized React.js for front end components, React-vis for graphs/tables. Used node.js and express for backend server and MySQL for database."
   },
   {
-    href:'https://whispering-savannah-73328.herokuapp.com/',
+    href:'https://github.com/dlowkeen/rhiz',
     src: require('../../../assets/images/rhiz.png'),
     alt:"Rhiz",
     name:"Rhiz",
