@@ -40,11 +40,11 @@ export default [
     responsibilities:"Sole Developer. Utilized React.js for front end components, React-vis for graphs/tables. Used node.js and express for backend server and MySQL for database."
   },
   {
-    href:'https://github.com/dlowkeen/rhiz',
-    src: require('../../../assets/images/rhiz.png'),
-    alt:"Rhiz",
-    name:"Rhiz",
-    description:"Small Business Marketplace application built with MERN Stack.",
-    responsibilities:"Sole Developer. Built with React/Redux for front-end, Express/Node Server, and MongoDB."
+    href:'https://github.com/dlowkeen/driver-dispatch',
+    src: require('../../../assets/images/out.gif'),
+    alt:"driver-dispatch",
+    name:"driver-dispatch",
+    description:"Automatic Driver-Shipment Dispatch Application built with Node.js.",
+    responsibilities:"Sole Developer. Built with Node, recursion, promises, and geolib. Integrated with Jasmine Unit Tests."
   }
 ];
