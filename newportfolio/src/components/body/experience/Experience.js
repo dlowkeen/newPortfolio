@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Item, Label, Icon, Button, Container } from 'semantic-ui-react';
+import { Item, Label, Container } from 'semantic-ui-react';
 import SectionHead from '../../common/SectionHead';
 import rhiz from "../../../assets/images/rhiz.png";
-
-const paragraph = "Duis mollit irure enim proident aliquip laboris cillum et excepteur voluptate proident."
+import socialSpaces from '../../../assets/images/socialSpaces.png';
 
 class Experience extends Component {
   render() {
@@ -15,17 +14,17 @@ class Experience extends Component {
 
             <Item.Content>
               <Item.Header style={{ color: "white" }} as="a" href="https://github.com/dlowkeen/rhiz">
-                Rhiz
+                Rhiz - Software Engineer
               </Item.Header>
               <Item.Meta style={{ color: "white" }}>
-                <span>Software Engineer</span>
+                <span>March 2018 - present</span>
               </Item.Meta>
               <Item.Description style={{ color: "white" }}>
-                <p>
+                <p className="bio-text">
                   Small business marketplace to help users find businesses
                   using Localeze API and in-network customer reviews.
                 </p>
-                <p>
+                <p className="bio-text">
                   Contribute to an agile, collaborative environment using
                   CircleCI and Jasmine Unit Tests for automated continuous
                   integration and deployment with GitHub and Heroku.
@@ -42,36 +41,35 @@ class Experience extends Component {
           </Item>
 
           <Item>
-            <Item.Image as="a" href="https://github.com/dlowkeen/rhiz" size="medium" src={rhiz} />
+            <Item.Image as="a" href="https://github.com/dlowkeen/rhiz" size="medium" src={socialSpaces} />
 
             <Item.Content>
-              <Item.Header style={{ color: "white" }} as="a" href="https://github.com/dlowkeen/rhiz">
-                Social Spaces
+              <Item.Header style={{ color: "white" }} as="a" href="http://socialspaces.life/">
+                Social Spaces - Front-End Developer
               </Item.Header>
               <Item.Meta style={{ color: "white" }}>
-                <span>Front-End Developer</span>
+                <span>January 2018 - March 2018</span>
               </Item.Meta>
               <Item.Description style={{ color: "white" }}>
-                <p>
-                  Small business marketplace to help users find businesses
-                  using Localeze API and in-network customer reviews.
+                <p className="bio-text">
+                  Collaborate with CEO and founders to convert mock up
+                  designs into functional website using React/Redux.
                 </p>
-                <p>
-                  Contribute to an agile, collaborative environment using
-                  CircleCI and Jasmine Unit Tests for automated continuous
-                  integration and deployment with GitHub and Heroku.
+                <p className="bio-text">
+                  Pull user data from social media accounts to create
+                  profile dashboard centering around life and work goals.
                 </p>
               </Item.Description>
               <Item.Extra>
                 <Label>React/Redux</Label>
-                <Label>Node/Express</Label>
-                <Label>MongoDB</Label>
-                <Label>CircleCI</Label>
-                <Label>Jasmine Unit Testing</Label>
+                <Label>HTML/CSS</Label>
               </Item.Extra>
             </Item.Content>
           </Item>
         </Item.Group>
+        <br />
+        <br />
+        <br />
       </Container>;
   }
 }
