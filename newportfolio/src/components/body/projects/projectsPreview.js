@@ -25,9 +25,11 @@ export default [
   },
   {
     href:'https://github.com/dlowkeen/vody',
-    src: require("../../../assets/images/socialSpaces.jpeg"),
+    src: require("../../../assets/images/vody.gif"),
     alt:"Vody",
     name:"Vody",
+    height: "300px",
+    width: "150px",
     description:"Mobile application to search for movies using the MoviesDB Database.",
     responsibilities:"Built with React-Native and Redux for front end components. Utilized Axios calls and promise functions to call JSON data. Facebook-sdk login for android and ios. "
   },

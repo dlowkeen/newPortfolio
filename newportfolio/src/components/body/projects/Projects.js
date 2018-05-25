@@ -18,7 +18,7 @@ class Projects extends Component {
     return projects.map(project => {
       return <div className="card">
           <div className="image">
-            <Image src={project.src} alt={project.alt} as="a" href={project.href} target="_blank" />
+            <Image style={{height: project.height, width: project.width }} src={project.src} alt={project.alt} as="a" href={project.href} target="_blank" />
           </div>
           <div className="content">
             <a className="header" href={project.href}>
